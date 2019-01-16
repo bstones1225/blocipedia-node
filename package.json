@@ -1,0 +1,19 @@
+{
+  "name": "blocipedia-node",
+  "version": "1.0.0",
+  "description": "A Wikipedia-like application for users to read content",
+  "main": "\u001b[D\u001b[D\u001b[3~\u001b[3~src/server.js)",
+  "scripts": {
+    "test": "export NODE_ENV=test && jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bstones1225/blocipedia-node.git"
+  },
+  "author": "Brian Stones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bstones1225/blocipedia-node/issues"
+  },
+  "homepage": "https://github.com/bstones1225/blocipedia-node#readme"
+}
