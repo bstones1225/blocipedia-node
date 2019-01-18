@@ -4,7 +4,8 @@
   "description": "A Wikipedia-like application for users to read content",
   "main": "\u001b[D\u001b[D\u001b[3~\u001b[3~src/server.js)",
   "scripts": {
-    "test": "export NODE_ENV=test && jasmine"
+    "test": "cross-env NODE_ENV=test && jasmine",
+    "start": "node src/server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,28 @@
   "bugs": {
     "url": "https://github.com/bstones1225/blocipedia-node/issues"
   },
-  "homepage": "https://github.com/bstones1225/blocipedia-node#readme"
+  "homepage": "https://github.com/bstones1225/blocipedia-node#readme",
+  "devDependencies": {
+    "jasmine": "^3.0.0",
+    "request": "^2.83.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cross-env": "^5.2.0",
+    "cryptiles": "^4.1.3",
+    "dotenv": "^6.2.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.2",
+    "express-flash": "0.0.2",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.3.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "pg": "^7.8.0",
+    "pg-hstore": "^2.3.2",
+    "proxy-addr": "^2.0.4",
+    "sequelize": "^4.42.0",
+    "sequelize-cli": "^5.4.0"
+  }
 }
