@@ -2,6 +2,7 @@
   "name": "blocipedia-node",
   "version": "1.0.0",
   "description": "A Wikipedia-like application for users to read content",
+  "main": "src/server.js",
   "scripts": {
     "test": "cross-env NODE_ENV=test && jasmine",
     "start": "node src/server.js"
