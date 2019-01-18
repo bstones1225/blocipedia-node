@@ -20,6 +20,10 @@
   "production": {
     "username": "root",
     "password": null,
+<<<<<<< HEAD
+=======
+    "database": "database_production",
+>>>>>>> chkpt-scaffold
     "host": "127.0.0.1",
     "dialect": "postgres",
     "logging": false,
