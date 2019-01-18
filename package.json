@@ -2,7 +2,6 @@
   "name": "blocipedia-node",
   "version": "1.0.0",
   "description": "A Wikipedia-like application for users to read content",
-  "main": "\u001b[D\u001b[D\u001b[3~\u001b[3~src/server.js)",
   "scripts": {
     "test": "cross-env NODE_ENV=test && jasmine",
     "start": "node src/server.js"
@@ -19,6 +18,8 @@
   "homepage": "https://github.com/bstones1225/blocipedia-node#readme",
   "devDependencies": {
     "jasmine": "^3.0.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.9",
     "request": "^2.83.0"
   },
   "dependencies": {

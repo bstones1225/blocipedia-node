@@ -6,6 +6,7 @@ const bodyParser = require("body-parser");
 const expressValidator = require("express-validator");
 const session = require("express-session");
 const flash = require("express-flash");
+const logger = require('morgan');
 
 const sess = {
   secret: 'keyboard cat',
@@ -29,7 +30,8 @@ module.exports = {
      }
      app.use(session(sess));
      app.use(flash());
-    
+     app.use(logger('dev'));
+
      app.use((req,res,next) => {
         res.locals.currentUser = req.user;
         next();
