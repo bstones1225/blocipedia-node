@@ -20,10 +20,12 @@
   "devDependencies": {
     "jasmine": "^3.0.0",
     "morgan": "^1.9.1",
+    "node-env-run": "^3.0.2",
     "nodemon": "^1.18.9",
     "request": "^2.83.0"
   },
   "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
     "cross-env": "^5.2.0",
